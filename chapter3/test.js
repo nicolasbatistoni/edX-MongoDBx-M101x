@@ -218,7 +218,7 @@ describe('Part 3 Assessment Tests', function() {
     var config = require('./config.json');
     assert.equal(require('passport')._strategies['facebook']._clientSecret,
       config.facebookClientSecret);
-    ++succeeded;
+    ++succeeded;    
     done();
   });
 
